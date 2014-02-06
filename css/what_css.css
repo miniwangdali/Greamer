@@ -13,7 +13,7 @@ body{
 }
 .headframe{
 	margin:0 auto;
-	background-image:url(background.png);
+	background-image:url(../image/background.png);
 	background-size:cover;
 	background-repeat:no-repeat;
 	height:125px;
@@ -68,7 +68,7 @@ body{
 	width: 850px;
 	min-height:600px;
 	text-align: left;
-	background-image:url(text_bg.png);
+	background-image:url(../image/text_bg.png);
 	background-repeat:no-repeat;
 	background-size:contain;
 	font-family: "Arial Rounded MT Bold";
@@ -97,7 +97,7 @@ body{
 	padding-top: 13px;
 	width: 140px;
 	height:29px;
-	background-image:url(botton.png);
+	background-image:url(../image/button.png);
 	background-size:contain;
 	font-family:"helvelow", "Arial";
 	font-size:12px;
