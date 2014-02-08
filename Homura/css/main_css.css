@@ -85,20 +85,18 @@ body{
 	color:#ffffff;
 }
 #left{
-	float:left; 
+	float:left;
 	width:75%;
 }
 #right{
 	float:left;
 	margin:0 0 0 30px;
 }
-#topteam{
-	float:left;
-	width:30%;
-}
 .news{
-	float:left;
-	width:70%;
+	float:right;
+	margin:10px -5px 0 0;
+	width:66%;
+	min-height:270px;
 	background-image:url(../image/sub_bg.png);
 	background-size:contain;
 	background-repeat:no-repeat;
@@ -112,24 +110,46 @@ body{
 .news .m{
 	float:right;
 	padding:2px 15px 0 0px;
+	color:#000;
 	font-size:14px;
 	font-family:"Helvelow", "Arial";
 }
-.newslist{}
+.newslist{
+	padding-top:5px;
+}
 .newslist li.title{
-	margin:0px 1px 0 1px;
+	clear:both;
+	margin:0px 2px 0 1px;
+	padding:4px 0px 0px 15px;
 	background-color:#fff;
-	height:10px;
+	height:20px;
 	list-style-type:none;
+	font-size:12px;
+	font-family:"Helvelow", "Arial Rounded MT Bold";
 }
 .newslist li.abstract{
-	margin:1px;
+	clear:both;
+	overflow:hidden;
+	margin:0 2px 0 1px;
+	padding:4px 5px 0 15px;
 	border-bottom:2px solid #dfdede;
 	border-top:2px solid #bcbcbc;
 	background-color:#f1f0f0;
-	height:40px;
+	height:30px;
 	list-style-type:none;
+	font-size:12px;
+	font-family:"Helvelow", "Arial Rounded MT Bold";
+	color:#818181;
 }
+#more{
+	float:right; 
+	color:#004eff;
+	height:20px; 
+	text-align:right;
+	font-size:12px; 
+	font-family:"Helvelow", "Arial Rounded MT Bold";
+}
+
 .sort{
 	margin:-5px 0 -13px 0;
 	padding:5px 0 2px 24px;
@@ -154,9 +174,8 @@ body{
 	height:20px; 
 	line-height:0px; 
 	right:10px; 
-	bottom:0px; 
-	font-weight:900; 
-	font-size:40px; 
+	bottom:0px;  
+	font-size:36px; 
 	font-family:Arial;
 }
 .toplist li:hover .t{
@@ -175,7 +194,6 @@ body{
 	width:60px; 
 	height:60px; 
 	border-radius:10px; 
-	display:none; 
 	margin:0 10px 0 10px; 
 	padding:0; 
 	border:2px solid #66ccff; 
@@ -200,5 +218,51 @@ body{
 	color:#868686;
 	font-family:"Arial Bold";
 	font-size:16px;
+}
+#topteam{
+	float:left;
+	margin:10px 0 0 0;
+	width:32.3%;
+	min-height:270px;
+	background-image:url(../image/topteam_bg.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+}
+.topteamlist{
+	overflow:hidden;
+	clear:both;
+	margin:0;
+
+}
+
+.topteamlist li{
+	float:left;
+	overflow:hidden;
+	margin:3px 1px 0px 1px;
+	padding:7px 0 7px 0; 
+	position:relative; 
+	background-color:#fff;
+}
+.topteamlist li img{ 
+	width:30px; 
+	height:30px; 
+	border-radius:5px;
+	margin:0 12px 0 12px; 
+	padding:0; 
+	border:2px solid #66ccff; 
+	float:left;
+}
+.topteamlist li .t{
+	overflow:hidden; 
+	color:#000000;
+	font-weight:bold;
+	font-family:"Arial Narrow";
+	font-size:16px;
+}
+.topteamlist li .n{
+	overflow:hidden; 
+	color:#868686;
+	font-family:"Arial Bold";
+	font-size:10px;
 }
 .clearframe{clear:both;}
