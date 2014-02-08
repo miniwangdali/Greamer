@@ -96,9 +96,39 @@ body{
 	float:left;
 	width:30%;
 }
-#news{
+.news{
 	float:left;
 	width:70%;
+	background-image:url(../image/sub_bg.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+}
+.news .t{
+	float:left;
+	padding:2px 0 0 10px;
+	font-size:14px;
+	font-family:"Helvelow", "Arial";
+}
+.news .m{
+	float:right;
+	padding:2px 15px 0 0px;
+	font-size:14px;
+	font-family:"Helvelow", "Arial";
+}
+.newslist{}
+.newslist li.title{
+	margin:0px 1px 0 1px;
+	background-color:#fff;
+	height:10px;
+	list-style-type:none;
+}
+.newslist li.abstract{
+	margin:1px;
+	border-bottom:2px solid #dfdede;
+	border-top:2px solid #bcbcbc;
+	background-color:#f1f0f0;
+	height:40px;
+	list-style-type:none;
 }
 .sort{
 	margin:-5px 0 -13px 0;
