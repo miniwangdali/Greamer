@@ -231,7 +231,7 @@ body{
 .topteamlist{
 	overflow:hidden;
 	clear:both;
-	margin:0;
+	margin:0 auto;
 
 }
 
