@@ -95,7 +95,7 @@ body{
 .news{
 	float:right;
 	margin:10px -5px 0 0;
-	width:66%;
+	width:65%;
 	min-height:270px;
 	background-image:url(../image/sub_bg.png);
 	background-size:contain;
@@ -222,7 +222,7 @@ body{
 #topteam{
 	float:left;
 	margin:10px 0 0 0;
-	width:32.3%;
+	width:35%;
 	min-height:270px;
 	background-image:url(../image/topteam_bg.png);
 	background-size:contain;
@@ -238,8 +238,9 @@ body{
 .topteamlist li{
 	float:left;
 	overflow:hidden;
-	margin:3px 1px 0px 1px;
+	margin:2px 1px 0px 1px;
 	padding:7px 0 7px 0; 
+	min-width:261px;
 	position:relative; 
 	background-color:#fff;
 }
@@ -265,4 +266,34 @@ body{
 	font-family:"Arial Bold";
 	font-size:10px;
 }
+.search{clear:both;}
+.search input{}
+.search input.box{
+	margin: 3px 0 0 30px;
+	border:none;
+	border-radius:5px;
+	background-image:url(../image/search_bg.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+	font-family:"Helvelow", "Arial";
+}
+.search input.button{
+	position:relative;
+	left:-10px;
+	top:6px;
+	display: block; 
+	float: right; 
+	width: 60px; 
+	cursor: pointer;
+	height: 15px; 
+	overflow: hidden; 
+	border: 0; 
+	border-radius: 0px; 
+	background:url(../image/search.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+	margin: 0; 
+	padding: 0;
+}
+
 .clearframe{clear:both;}
