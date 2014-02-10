@@ -104,6 +104,10 @@ body{
 	font-family:"helvelow", "Arial";
 	font-size:12px;
 	color:#ffffff;
+	cursor:pointer;
+}
+#button:hover{
+	text-shadow:0 0 10px #fff;
 }
 .largeleft{
 	float:left;
