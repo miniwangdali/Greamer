@@ -5,13 +5,19 @@
 
 class IndexAction extends Action {
 
-	public function index () {
+	public function Index () {
 
-		$this -> display () ; 
-
+		$this -> display ('Index') ; 
 
 	}
 	
+	public function ShowWhatIsGreamer(){
+		$this->display('WhatIsGreamer') ; 
+	}
+
+	public function ShowSearchProject(){
+		$this->display('SearchProject') ; 
+	}
 	
 }
 
