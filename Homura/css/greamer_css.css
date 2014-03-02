@@ -20,25 +20,28 @@ body{
 }
 .leftframe{
 	float:left;
-	width:624px;
+	width:680px;
 }
 .leftframe .top{
 	clear:both;
-	width:624px;
+	width:680px;
 	height:24px;
 	background-image:url(../image/detail_bg.png);
 	background-size:cover;
 	background-repeat:no-repeat;
 }
 .leftframe .detail{
-	width:622px;
+	width:676px;
 	background-color:#fff;
-	border-left:1px solid #7f7f7f;
-	border-right:1px solid #7f7f7f;
+	border-left:2px solid #7f7f7f;
+	border-right:2px solid #7f7f7f;
+	border-bottom:2px solid #7f7f7f;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
 }
 .leftframe .detail .r{
 	padding:20px 0 20px 0;
-	min-width:370px;
+	min-width:450px;
 	float:left;
 }
 .leftframe .detail .r .t{
@@ -67,6 +70,7 @@ body{
 	clear:both;
 }
 .leftframe .detail .r .g .n .upper .num{
+	overflow:hidden;
 	font-family:"Arial";
 	text-align:right;
 	font-size:14px;
@@ -74,16 +78,18 @@ body{
 	float:right;
 }
 .leftframe .detail .r .g .n .upper .i{
+	overflow:hidden;
 	font-family: "Agency FB";
 	font-size:14px;
 	text-align:left;
 	color:#00ff00;
 	float:left;
 }
-.leftframe .detail .r .g .n .upper{
+.leftframe .detail .r .g .n .lower{
 	clear:both;
 }
 .leftframe .detail .r .g .n .lower .num{
+	overflow:hidden;
 	font-family:"Arial";
 	text-align:right;
 	font-size:14px;
@@ -91,6 +97,7 @@ body{
 	float:right;
 }
 .leftframe .detail .r .g .n .lower .i{
+	overflow:hidden;
 	font-family: "Arial Narrow";
 	font-size:14px;
 	text-align:left;
@@ -99,7 +106,7 @@ body{
 }
 .leftframe .detail .r .progressbar{
 	height:20px;
-	width:300px;
+	width:450px;
 	border:1px solid #bcbcbc;
 	border-radius:8px;
 }
@@ -113,9 +120,57 @@ body{
 	text-justify:inter-cluster;
 	white-space:normal;
 }
+.leftframe .reward{
+	padding:10px 0 10px 0;
+	border-top:2px solid #7f7f7f;
+	border-bottom:2px solid #7f7f7f;
+	width:676px;
+	background-color:#fff;
+}
+.leftframe .reward .title{
+	padding:0 0 0 30px;
+	text-align:left;
+	font-family:"Arial";
+	font-size:24px;
+	color:#004eff;
+}
+.leftframe .reward .detail{
+	width:auto;
+	padding:3px 0 0 30px;
+	border:0;
+	margin:0;
+	font-size:14px;
+	font-family:"Arial";
+}
+.leftframe .reward .detail i{
+	overflow:hidden;
+}
+.leftframe .reward .detail i.invest{
+	font-style:normal;
+	color:#7f7f7f;
+}
+.leftframe .reward .detail i.fund{
+	font-style:normal;
+	color:#004eff;
+}
+.leftframe .timeleft{
+	padding:5px 0 5px 30px;
+	font-size:30px;
+	font-family:"Arial";
+	color:#000;
+}
+.leftframe .timeleft i.resttime{
+	font-style:normal;
+	color:#7f7f7f;
+}
+.leftframe .timeleft i.deadline{
+	font-size:16px;
+	font-style:normal;
+	color:#7f7f7f;
+}
 .rightframe{
 	float:left;
-	width:416px;
+	width:300px;
 }
 #head{
 	margin:auto;
